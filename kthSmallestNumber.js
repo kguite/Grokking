@@ -18,6 +18,8 @@ const find_Kth_smallest_number = function(nums, k) {
 ///// follow along:
 // we want the third largest of the smallest
 // goign to iterate every 3
+// O number time and space
+// O(N * logK) time | o(K) Space
 
 
   function find_k_smallest_numbers(nums, k) {
@@ -40,9 +42,7 @@ const find_Kth_smallest_number = function(nums, k) {
     return minHeap.toArray();
   }
   
-  5
-  / \
-  3  1
+
   
   console.log(` Kth smallest number is: ${find_kth_smallest_numbers([3, 1, 5, 12, 2, 11], 3)}`);
 
